@@ -49,7 +49,7 @@
         .profile-image {
             display: block;
             margin: 0 auto 20px;
-            border-radius: 50%;
+            border-radius: none;
             width: 360px;
             height: 360px;
             object-fit: cover;
