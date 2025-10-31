@@ -50,8 +50,8 @@
             display: block;
             margin: 0 auto 20px;
             border-radius: none;
-            width: 360px;
-            height: 360px;
+            width: 400px;
+            height: 600px;
             object-fit: cover;
             border: none;
         }
