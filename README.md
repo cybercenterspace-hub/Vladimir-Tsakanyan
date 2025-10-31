@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,10 +50,10 @@
             display: block;
             margin: 0 auto 20px;
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 360px;
+            height: 360px;
             object-fit: cover;
-            border: 4px solid #2c3e50;
+            border: none;
         }
         .bio, .expertise-list {
             background: white;
