@@ -4,7 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vladimir Tsakanyan | Cyberdiplomacy, Cybersecurity Policy & Geopolitics</title>
     <meta name="description" content="Vladimir Tsakanyan is Director and Researcher of the Cyberdiplomacy Strategy Program at CCD-IS, specializing in cybersecurity policy, cyberdiplomacy, Russian policy, and Middle Eastern policy.">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
+    
     <style>
         /* Basic CSS for a clean, professional look */
         body {
@@ -49,7 +52,8 @@
         .profile-image {
             display: block;
             margin: 0 auto 20px;
-            border-radius: none;
+            /* Corrected: Removed invalid border-radius value for rectangular shape */
+            border-radius: 0; 
             width: 400px;
             height: 600px;
             object-fit: cover;
@@ -108,7 +112,8 @@
         "@graph": [ 
             { 
                 "@type": "Person", 
-                "@id": "https://www.google.com/search?q=https://cybercenter.space/vladimir-tsakanyan/%23person", 
+                /* FIXED: Changed invalid Google Search URL to a valid canonical URI */
+                "@id": "https://cybercenter.space/vladimir-tsakanyan/#person", 
                 "name": "Vladimir Tsakanyan", 
                 "url": "https://cybercenter.space/vladimir-tsakanyan/", 
                 "image": { 
@@ -149,7 +154,8 @@
                 "url": "https://cybercenter.space/", 
                 "name": "Cyberdiplomacy Strategy Program", 
                 "description": "The official site for the Cyberdiplomacy Strategy Program.", 
-                "publisher": { "@id": "https://www.google.com/search?q=https://cybercenter.space/vladimir-tsakanyan/%23person" } 
+                /* FIXED: Referenced the corrected @id from the Person entity */
+                "publisher": { "@id": "https://cybercenter.space/vladimir-tsakanyan/#person" } 
             }
         ] 
     }
@@ -168,7 +174,7 @@
             <h2>🌍 About Vladimir Tsakanyan</h2>
             <img src="https://cybercenter.space/wp-content/uploads/2025/10/vladimir-tsakanyan.jpg?w=1024" alt="Portrait of Vladimir Tsakanyan" class="profile-image">
             <div class="bio">
-                <p><strong>Vladimir “Vlad” Tsakanyan</strong> is a leading political scientist and strategic analyst specializing in the intersection of cybersecurity policy and international relations. He currently serves as the Director and Researcher of the Cyberdiplomacy Strategy Program at the Center for Cyber Diplomacy and International Security (CCD-IS).</p>
+                <p><strong>Vladimir “Vlad” Tsakanyan</strong> is a leading political scientist and strategic analyst specializing in the intersection of cybersecurity policy and international relations. He currently serves as the **Director and Researcher of the Cyberdiplomacy Strategy Program** at the Center for Cyber Diplomacy and International Security (**CCD-IS**).</p>
                 <p>His academic background includes a Ph.D. in History and an M.A. in World Politics from RUDN University, as well as an M.A. in World Politics and a B.A. in International Relations from Yerevan State University. Previously, Vlad was an Assistant Professor of Political Science at RUDN University in Russia.</p>
                 <p>A member of the International Studies Association (ISA), he regularly presents his research on critical global security issues. His work provides strategic insights on cyber foreign policy, critical infrastructure protection, and mitigating threats from state-sponsored cyber warfare.</p>
             </div>
