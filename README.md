@@ -168,9 +168,9 @@
             <h2>🌍 About Vladimir Tsakanyan</h2>
             <img src="https://cybercenter.space/wp-content/uploads/2025/10/vladimir-tsakanyan.jpg?w=1024" alt="Portrait of Vladimir Tsakanyan" class="profile-image">
             <div class="bio">
-                <p><strong>Vladimir “Vlad” Tsakanyan</strong> is a leading political scientist and strategic analyst specializing in the intersection of **cybersecurity policy** and **international relations**. He currently serves as the **Director and Researcher of the Cyberdiplomacy Strategy Program** at the Center for Cyber Diplomacy and International Security (**CCD-IS**).</p>
-                <p>His academic background includes a **Ph.D. in History** and an **M.A. in World Politics** from RUDN University, as well as an **M.A. in World Politics** and a **B.A. in International Relations** from Yerevan State University. Previously, Vlad was an Assistant Professor of Political Science at RUDN University in Russia.</p>
-                <p>A member of the **International Studies Association (ISA)**, he regularly presents his research on critical global security issues. His work provides strategic insights on cyber foreign policy, critical infrastructure protection, and mitigating threats from state-sponsored cyber warfare.</p>
+                <p><strong>Vladimir “Vlad” Tsakanyan</strong> is a leading political scientist and strategic analyst specializing in the intersection of cybersecurity policy and international relations. He currently serves as the Director and Researcher of the Cyberdiplomacy Strategy Program at the Center for Cyber Diplomacy and International Security (CCD-IS).</p>
+                <p>His academic background includes a Ph.D. in History and an M.A. in World Politics from RUDN University, as well as an M.A. in World Politics and a B.A. in International Relations from Yerevan State University. Previously, Vlad was an Assistant Professor of Political Science at RUDN University in Russia.</p>
+                <p>A member of the International Studies Association (ISA), he regularly presents his research on critical global security issues. His work provides strategic insights on cyber foreign policy, critical infrastructure protection, and mitigating threats from state-sponsored cyber warfare.</p>
             </div>
         </section>
         
