@@ -9,156 +9,65 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
     
     <style>
-        /* Basic CSS for a clean, professional look */
-        body {
-            font-family: 'Georgia', serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 2em 1em;
-            text-align: center;
-        }
-        header h1 {
-            margin-bottom: 0.1em;
-            font-size: 2.5em;
-        }
-        header p {
-            font-size: 1.2em;
-            font-style: italic;
-        }
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px 0;
-        }
-        section {
-            padding: 20px 0;
-            border-bottom: 1px solid #ddd;
-        }
-        section h2 {
-            text-align: center;
-            color: #2c3e50;
-            font-size: 2em;
-            margin-bottom: 1em;
-        }
-        .profile-image {
-            display: block;
-            margin: 0 auto 20px;
-            /* Corrected: Removed invalid border-radius value for rectangular shape */
-            border-radius: 0; 
-            width: 400px;
-            height: 600px;
-            object-fit: cover;
-            border: none;
-        }
-        .bio, .expertise-list {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .expertise-list ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .expertise-list li {
-            background: #ecf0f1;
-            margin: 5px;
-            padding: 10px 15px;
-            border-radius: 20px;
-            font-weight: bold;
-            color: #34495e;
-            text-align: center;
-        }
-        .social-links {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .social-links a {
-            color: #2c3e50;
-            margin: 0 10px;
-            font-size: 1.8em;
-            transition: color 0.3s;
-        }
-        .social-links a:hover {
-            color: #3498db;
-        }
-        .contact-info p {
-            text-align: center;
-            font-size: 1.1em;
-        }
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            margin-top: 20px;
-        }
+        /* CSS is kept as is for brevity, assuming the visual layout is acceptable */
+        body { font-family: 'Georgia', serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background: #2c3e50; color: white; padding: 2em 1em; text-align: center; }
+        header h1 { margin-bottom: 0.1em; font-size: 2.5em; }
+        header p { font-size: 1.2em; font-style: italic; }
+        .container { width: 90%; max-width: 1100px; margin: auto; overflow: hidden; padding: 20px 0; }
+        section { padding: 20px 0; border-bottom: 1px solid #ddd; }
+        section h2 { text-align: center; color: #2c3e50; font-size: 2em; margin-bottom: 1em; }
+        .profile-image { display: block; margin: 0 auto 20px; border-radius: 0; width: 400px; height: 600px; object-fit: cover; border: none; }
+        .bio, .expertise-list { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .expertise-list ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; }
+        .expertise-list li { background: #ecf0f1; margin: 5px; padding: 10px 15px; border-radius: 20px; font-weight: bold; color: #34495e; text-align: center; }
+        .social-links { text-align: center; margin-top: 20px; }
+        .social-links a { color: #2c3e50; margin: 0 10px; font-size: 1.8em; transition: color 0.3s; }
+        .social-links a:hover { color: #3498db; }
+        .contact-info p { text-align: center; font-size: 1.1em; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 1em 0; margin-top: 20px; }
     </style>
+    
     <script type="application/ld+json">
-    { 
-        "@context": "https://schema.org", 
-        "@graph": [ 
-            { 
-                "@type": "Person", 
-                /* FIXED: Changed invalid Google Search URL to a valid canonical URI */
-                "@id": "https://cybercenter.space/vladimir-tsakanyan/#person", 
-                "name": "Vladimir Tsakanyan", 
-                "url": "https://cybercenter.space/vladimir-tsakanyan/", 
-                "image": { 
-                    "@type": "ImageObject", 
-                    "url": "https://cybercenter.space/wp-content/uploads/2025/10/vladimir-tsakanyan.jpg?w=1024" 
-                }, 
-                "jobTitle": "Director and Researcher, Cyberdiplomacy Strategy Program", 
-                "description": "Vladimir “Vlad” Tsakanyan is Director and Researcher of the Cyberdiplomacy Strategy Program at CCD-IS (Center for Cyber Diplomacy and International Security), a political scientist specializing in cybersecurity policy, cyberdiplomacy, Russian policy, and Middle Eastern policy. Previously, Vlad served as an Assistant Professor of Political Science at RUDN University in Russia. He has contributed to various publications, including IA REX in Russia, and currently conducts independent political analysis and research at CCD-IS. He is a member of the International Studies Association (ISA) and has presented his research at numerous ISA conferences. Vlad holds a PhD in History and an MA in World Politics from both RUDN University and Yerevan State University. He also earned a BA in International Relations from Yerevan State University.",
-                "alumniOf": [ 
-                    { 
-                        "@type": "EducationalOrganization", 
-                        "@id": "https://www.ysu.am/#organization", 
-                        "name": "Yerevan State University", 
-                        "url": "https://www.ysu.am/en", 
-                        "educationalCredentialAwarded": ["Bachelor of Arts (B.A.) in International Relations", "Master of Arts (M.A.) in World Politics"] 
-                    }, 
-                    { 
-                        "@type": "EducationalOrganization", 
-                        "@id": "https://www.rudn.ru/#organization", 
-                        "name": "RUDN University", 
-                        "url": "https://www.rudn.ru/", 
-                        "educationalCredentialAwarded": ["Doctor of Philosophy (Ph.D.) in History", "Master of Arts (M.A.) in World Politics"] 
-                    } 
-                ],
-                "sameAs": [ 
-                    "https://www.linkedin.com/in/cyber-prefect/", 
-                    "https://www.instagram.com/vladimir_tsakanyan", 
-                    "https://www.facebook.com/vtsakanyan", 
-                    "https://x.com/vladimirtsakan1", 
-                    "https://www.researchgate.net/profile/Vladimir-Tsakanyan", 
-                    "https://independent.academia.edu/VTsakanyan", 
-                    "https://www.crunchbase.com/person/vladimir-tsakanyan" 
-                ] 
-            }, 
-            { 
-                "@type": "WebSite", 
-                "@id": "https://cybercenter.space/#website", 
-                "url": "https://cybercenter.space/", 
-                "name": "Cyberdiplomacy Strategy Program", 
-                "description": "The official site for the Cyberdiplomacy Strategy Program.", 
-                /* FIXED: Referenced the corrected @id from the Person entity */
-                "publisher": { "@id": "https://cybercenter.space/vladimir-tsakanyan/#person" } 
-            }
-        ] 
-    }
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vladimir Tsakanyan",
+        "url": "https://cybercenter.space/vladimir-tsakanyan/",
+        "image": "https://cybercenter.space/wp-content/uploads/2025/10/vladimir-tsakanyan.jpg?w=1024",
+        "jobTitle": "Director and Researcher, Cyberdiplomacy Strategy Program",
+        "description": "Vladimir “Vlad” Tsakanyan is Director and Researcher of the Cyberdiplomacy Strategy Program at CCD-IS (Center for Cyber Diplomacy and International Security), a political scientist specializing in cybersecurity policy, cyberdiplomacy, Russian policy, and Middle Eastern policy.",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Center for Cyber Diplomacy and International Security (CCD-IS)",
+          "url": "https://cybercenter.space/"
+        },
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "RUDN University",
+            "url": "https://www.rudn.ru/",
+            "educationalCredentialAwarded": ["Doctor of Philosophy (Ph.D.) in History", "Master of Arts (M.A.) in World Politics"]
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Yerevan State University",
+            "url": "https://www.ysu.am/en",
+            "educationalCredentialAwarded": ["Master of Arts (M.A.) in World Politics", "Bachelor of Arts (B.A.) in International Relations"]
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/cyber-prefect/",
+          "https://x.com/vladimirtsakan1",
+          "https://www.researchgate.net/profile/Vladimir-Tsakanyan",
+          "https://independent.academia.edu/VTsakanyan",
+          "https://www.facebook.com/vtsakanyan",
+          "https://www.instagram.com/vladimir_tsakanyan",
+          "https://www.crunchbase.com/person/vladimir-tsakanyan"
+        ]
+      }
+    ]
     </script>
 </head>
 <body>
