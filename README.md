@@ -65,6 +65,7 @@
           "https://www.facebook.com/vtsakanyan",
           "https://www.instagram.com/vladimir_tsakanyan",
           "https://www.crunchbase.com/person/vladimir-tsakanyan"
+          "https://orcid.org/0000-0002-9349-1907"
         ]
       }
     ]
