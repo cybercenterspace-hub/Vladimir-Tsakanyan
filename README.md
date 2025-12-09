@@ -71,7 +71,54 @@
     </script>
 </head>
 <body>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Center for Cyber Diplomacy and International Security (CCD-IS)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Center for Cyber Diplomacy and International Security (CCD-IS) is a research-driven institution dedicated to analyzing and shaping the intersection of cybersecurity, diplomacy, and global security. It acts as a dedicated hub that merges strategic insight and policy analysis to advance global digital security and stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the director of the Center for Cyber Diplomacy and International Security?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vladimir Tsakanyan serves as the Director of the Center for Cyber Diplomacy and International Security. He is a political scientist and strategic analyst specializing in cybersecurity policy, cyberdiplomacy, and international relations, holding a Ph.D. in History and an M.A. in World Politics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the mission of the CCD-IS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The mission of the CCD-IS is to conduct cutting-edge research on cyber diplomacy and international security, bridge the gap between academic expertise and policy implementation, promote international cooperation in cyber governance, and provide strategic analysis and consultancy on cybersecurity issues affecting national and global security."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What services does the Center for Cyber Diplomacy and International Security provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The CCD-IS provides expert insights, policy recommendations, and strategic analysis. Their work spans academic research, policy analysis, and advisory services for governments, international organizations, and the private sector, catering to clientele ranging from diplomatic officials to corporate security leaders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What topics does Vladimir Tsakanyan write about?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vladimir Tsakanyan publishes extensively on topics including the future of cyber warfare, the intersection of AI and cybersecurity, space security, cyber diplomacy strategies, and the geopolitical implications of digital threats. His recent work analyzes global cyber resilience, political bias in AI, and state-sponsored cyber operations."
+      }
+    }
+  ]
+}
+</script>
     <header>
         <h1>Vladimir Tsakanyan, Ph.D.</h1>
         <p>Director and Researcher, Cyberdiplomacy Strategy Program at CCD-IS</p>
