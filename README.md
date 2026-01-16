@@ -60,6 +60,7 @@
     "sameAs": [
       "https://www.linkedin.com/in/cyber-prefect/",
       "https://x.com/vladimirtsakan1",
+      "https://www.imdb.com/name/nm18113349/?ref_=tt_ov_1_1"
       "https://www.researchgate.net/profile/Vladimir-Tsakanyan",
       "https://independent.academia.edu/VTsakanyan",
       "https://www.facebook.com/vtsakanyan",
