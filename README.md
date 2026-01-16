@@ -167,6 +167,7 @@
       <div class="social-links" aria-label="Social links">
         <a href="https://www.linkedin.com/in/cyber-prefect/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://x.com/vladimirtsakan1" target="_blank" aria-label="X (Twitter)"><i class="fab fa-x"></i></a>
+        <a href="https://www.imdb.com/name/nm18113349/?ref_=tt_ov_1_1" target="_blank" aria-label="IMDb"><i class="fab fa-IMDb"></i></a>
         <a href="https://www.researchgate.net/profile/Vladimir-Tsakanyan" target="_blank" aria-label="ResearchGate"><i class="ai ai-researchgate"></i></a>
         <a href="https://independent.academia.edu/VTsakanyan" target="_blank" aria-label="Academia.edu"><i class="ai ai-academia"></i></a>
         <a href="https://www.facebook.com/vtsakanyan" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
